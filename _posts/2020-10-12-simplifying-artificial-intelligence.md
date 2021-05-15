@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simplifying Artificial Intelligence
-subtitle: Artificial Intelligence (AI) will have an impact greater than what the Steam Engine had in the Industrial Revolution. But what is AI?
+subtitle: What is AI?
 cover-img: /assets/img/katarzyna-pe-Twe3VxJlDiY-unsplash.jpg
 thumbnail-img: /assets/img/katarzyna-pe-Twe3VxJlDiY-unsplash.jpg
 share-img: /assets/img/katarzyna-pe-Twe3VxJlDiY-unsplash.jpg
