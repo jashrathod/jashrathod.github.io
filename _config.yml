@@ -14,7 +14,7 @@ author: Jash Rathod
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Tech Blog: "blog.html"
+  Tech Blog: "https://jashrathod.github.io"
   Book Blog: "coming-up"
   About: "aboutme"
 #   Resources:
@@ -67,7 +67,7 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: This is Jash Rathod's Technology Blog
 
 # --- General options --- #
 
