@@ -36,3 +36,8 @@ Having pursued a four-year B.Tech. in Computer Engineering from Veermata Jijabai
 
 <br>
 Want to collaborate? Feel free to reach out to me on [LinkedIn](https://in.linkedin.com/in/jash-rathod-902512145). 
+
+<br>
+
+On a personal front, I have a keen passion for reading and writing. Thus, I write blogs about technologies like AI and my experience as a voracious reader.
+You can find them here: [Tech Blog](https://jashrathod.github.io) and [Book Blog](https://jashrathod.github.io/coming-up).
