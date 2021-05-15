@@ -14,7 +14,7 @@ author: Jash Rathod
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Tech Blog: "blog"
+  Tech Blog: "https://jashrathod.github.io"
   Book Blog: "coming-up"
   About: "aboutme"
 #   Resources:
