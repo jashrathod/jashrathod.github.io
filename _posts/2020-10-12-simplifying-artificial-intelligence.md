@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Simplifying Artificial Intelligence
-subtitle: Excerpt from Soulshaping by Jeff Brown
-cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
-share-img: /assets/img/path.jpg
+subtitle: Artificial Intelligence (AI) will have an impact greater than what the Steam Engine had in the Industrial Revolution. But what is AI?
+cover-img: /assets/img/katarzyna-pe-Twe3VxJlDiY-unsplash.jpg
+thumbnail-img: /assets/img/katarzyna-pe-Twe3VxJlDiY-unsplash.jpg
+share-img: /assets/img/katarzyna-pe-Twe3VxJlDiY-unsplash.jpg
 tags: [Artificial Intelligence, Machine Learning, Technology, AI]
 comments: true
 ---
@@ -14,6 +14,9 @@ Everywhere around us we find people talking about Artificial Intelligence (AI). 
 like how it is shown in the movies, why the tech giants like Google, Apple, Microsoft, and the myriad number of startups would be interested in 
 working and commercializing this technology? As fascinating as these science-fiction movies are, they portray a not-so-accurate picture of what 
 AI actually is. (Heads-up: Neural Network is an Artificial Intelligence method)
+
+![AI Meme](assets/img/hg366coymrd31.jpg){: .mx-auto.d-block :}
+
 
 Before we get into understanding AI, let us first look at why AI has gained this hype after all. You might be wondering, “What is so great about AI?” 
 Well, to answer this, let us understand how any computing device like our personal computers, laptops, and smartphones work. Our computers can only 
