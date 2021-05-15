@@ -15,7 +15,7 @@ like how it is shown in the movies, why the tech giants like Google, Apple, Micr
 working and commercializing this technology? As fascinating as these science-fiction movies are, they portray a not-so-accurate picture of what 
 AI actually is. (Heads-up: Neural Network is an Artificial Intelligence method)
 
-![AI Meme](assets/img/hg366coymrd31.jpg){: .mx-auto.d-block :}
+![AI Meme](/assets/img/hg366coymrd31.jpg){: .mx-auto.d-block :}
 
 
 Before we get into understanding AI, let us first look at why AI has gained this hype after all. You might be wondering, “What is so great about AI?” 
