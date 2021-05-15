@@ -20,7 +20,7 @@ Hello! I am Jash Rathod. I am a Machine Learning Researcher. In the past, I have
 - [Using Blockchain Technology for Continuing Medical Education Credits System](https://ieeexplore.ieee.org/abstract/document/9143876), BAT 2020
 
 
-Having pursued a four-year B.Tech. in Computer Engineering from Veermata Jijabai Technological Institute (VJTI), one of the premium institutions in India, I have gained tremendous exposure in the field of technology. For the past three years, I have worked with a wide variety of technologies like Artificial Intelligence and Blockchain. 
+Having pursued a four-year B.Tech. in Computer Engineering from Veermata Jijabai Technological Institute (VJTI), one of the premium institutions in India, I have gained tremendous exposure in the field of technology. For the past four years, I have worked with a wide variety of technologies like Artificial Intelligence and Blockchain. 
 
 ### Professional Experience:
 
