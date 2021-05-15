@@ -54,7 +54,8 @@ Some of its applications are:
 cyber-security), it has enabled us to gain insights that we humans were not aware of. It helps to enable businesses to operate more efficiently. It has 
 given us a personalized touch and ease with the help of voice assistants, movie recommendations, auto-complete, etc. 
 
-{: .box-note}“AI is one of the most profound things we are working on as humanity. It’s more profound than fire or electricity.” <br/> - Sundar Pichai, CEO of Alphabet Inc.
+{: .box-note}
+“AI is one of the most profound things we are working on as humanity. It’s more profound than fire or electricity.” <br/> - Sundar Pichai, CEO of Alphabet Inc.
 
 The early inventions such as fire or electricity have changed the world. There is no going back. Today’s technology leaders and gurus believe that AI will 
 have an impact greater than that the invention of fire and electricity had - “THE AI AGE.” AI is a vessel that is off the shore with time still left to get 
