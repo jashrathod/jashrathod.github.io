@@ -14,11 +14,12 @@ author: Jash Rathod
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  Blog: "index.html"
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://jashrathod.github.io"
+#   Resources:
+#     - Beautiful Jekyll: "https://beautifuljekyll.com"
+#     - Learn markdown: "https://www.markdowntutorial.com/"
+#   Author's home: "https://jashrathod.github.io"
 
 # --- Logo --- #
 
