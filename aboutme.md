@@ -19,7 +19,6 @@ Hello! I am Jash Rathod. I am a Machine Learning Researcher. In the past, I have
 - [Tokenization of Real Estate Using Blockchain Technology](https://link.springer.com/chapter/10.1007/978-3-030-61638-0_5), AIBlock 2020
 - [Using Blockchain Technology for Continuing Medical Education Credits System](https://ieeexplore.ieee.org/abstract/document/9143876), BAT 2020
 
-<br>
 
 Having pursued a four-year B.Tech. in Computer Engineering from Veermata Jijabai Technological Institute (VJTI), one of the premium institutions in India, I have gained tremendous exposure in the field of technology. For the past three years, I have worked with a wide variety of technologies like Artificial Intelligence and Blockchain. 
 
@@ -34,10 +33,11 @@ Having pursued a four-year B.Tech. in Computer Engineering from Veermata Jijabai
 2. I have been a part of Center of Excellence in Complex and Non-Linear Dynamic Systems (CoE-CNDS), which is headed by Dr. Faruk Kazi - Dean of R&D and Head of Electrical Engineering Department, VJTI. 
 3. Also, I published a research paper in association with C-DAC, Bangalore which aimed at providing a framework for Wind Speed Forecasting.
 
-<br>
+
+
 Want to collaborate? Feel free to reach out to me on [LinkedIn](https://in.linkedin.com/in/jash-rathod-902512145). 
 
-<br>
+
 
 On a personal front, I have a keen passion for reading and writing. Thus, I write blogs about technologies like AI and my experience as a voracious reader.
 You can find them here: [Tech Blog](https://jashrathod.github.io) and [Book Blog](https://jashrathod.github.io/coming-up).
