@@ -64,8 +64,8 @@ on it, traveling to a far land, where its impact will change things fundamentall
 AI differs from human intelligence in a number of ways and, ironically, both are quite similar in many ways. So how do we understand the relation between 
 the two? Well, I believe Yann LeCun answers this question beautifully as - 
 
-“Our intelligence is what makes us humans, and AI is an extension of that quality.”
-- Yann LeCun, VP and Chief AI Scientist at Facebook
+{: .box-note}
+“Our intelligence is what makes us humans, and AI is an extension of that quality.” <br/> - Yann LeCun, VP and Chief AI Scientist at Facebook
 
 Thank you for reading!
 
