@@ -54,6 +54,7 @@ Some of its applications are:
 cyber-security), it has enabled us to gain insights that we humans were not aware of. It helps to enable businesses to operate more efficiently. It has 
 given us a personalized touch and ease with the help of voice assistants, movie recommendations, auto-complete, etc. 
 
+{: .box-note}
 “AI is one of the most profound things we are working on as humanity. It’s more profound than fire or electricity.”
 - Sundar Pichai, CEO of Alphabet Inc.
 
