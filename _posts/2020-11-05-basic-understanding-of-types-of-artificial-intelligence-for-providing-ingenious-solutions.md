@@ -13,7 +13,7 @@ Artificial Intelligence (AI) has been the talk of the town these days. From hype
 using AI in their businesses or are having plans to begin in the quarters to come. It wouldn’t be wrong to say:
 
 {: .box-note}
-“dot-ai is the new dot-com.” <br/ > - Jash Rathod
+“dot-ai is the new dot-com.” <br /> - Jash Rathod
 
 In my [previous post](https://jashrathod.github.io/2020-10-12-simplifying-artificial-intelligence/), we explored, in a general sense, what AI is. If you haven’t explored it yet, feel free to check it out by clicking on the 
 following link: [Simplifying Artificial Intelligence](https://jashrathod.github.io/2020-10-12-simplifying-artificial-intelligence/).
@@ -68,7 +68,7 @@ ASI, as the name suggests, is where the machines surpass human intelligence and 
 really far …) from achieving this stage. If someday, it was to become a reality, the decision-making and problem-solving capabilities of the super-intelligent 
 beings would be far superior to those of human beings, and its consequences, beyond our imagination.
 
-![AI Categories](assets/img/artificial-intelligence.jpg){: .mx-auto.d-block :}
+![AI Categories](/assets/img/artificial-intelligence.jpg){: .mx-auto.d-block :}
 
 AI can also be classified based on its **Functionalities** as follows:
 
