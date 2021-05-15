@@ -1,16 +1,38 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Machine Learning Researcher
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hello! I am Jash Rathod. I am a Machine Learning Researcher. In the past, I have worked with technologies like Artificial Intelligence (AI) and Blockchain.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+### You can find my publications here:
 
-What else do you need?
+**Artificial Intelligence:**
 
-### My story
+- [Interpreting a Black-Box Model used for SCADA Attack detection in Gas Pipelines Control System](https://ieeexplore.ieee.org/document/9342087), INDICON 2020
+- [A Short-term Wind Forecasting Framework using Ensemble Learning for Indian Weather Stations](https://ieeexplore.ieee.org/document/9298262), INOCON 2020
+- [A Semi-Supervised Approach for Detection of SCADA Attacks in Gas Pipeline Control Systems](https://ieeexplore.ieee.org/document/9242676), IEEE Hydcon 2020
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+**Blockchain**
+
+- [Tokenization of Real Estate Using Blockchain Technology](https://link.springer.com/chapter/10.1007/978-3-030-61638-0_5), AIBlock 2020
+- [Using Blockchain Technology for Continuing Medical Education Credits System](https://ieeexplore.ieee.org/abstract/document/9143876), BAT 2020
+
+<br>
+
+Having pursued a four-year B.Tech. in Computer Engineering from Veermata Jijabai Technological Institute (VJTI), one of the premium institutions in India, I have gained tremendous exposure in the field of technology. For the past three years, I have worked with a wide variety of technologies like Artificial Intelligence and Blockchain. 
+
+### Professional Experience:
+
+1. In Summer 2020, I had the internship opportunity of being a part of the Voice Intelligence team of Samsung R&D Institute – Bangalore. 
+2. Moreover, I also have experience working with a startup named Axisvation Solutions, where I contributed towards providing technological solutions to the Insurance Sector. 
+
+### Research Experience:
+
+1. I am a part of the Blockchain and AI Lab, VJTI  and have published two research publications under the guidance of Dr. Dhiren Patel - Director, VJTI. 
+2. I have been a part of Center of Excellence in Complex and Non-Linear Dynamic Systems (CoE-CNDS), which is headed by Dr. Faruk Kazi - Dean of R&D and Head of Electrical Engineering Department, VJTI. 
+3. Also, I published a research paper in association with C-DAC, Bangalore which aimed at providing a framework for Wind Speed Forecasting.
+
+<br>
+Want to collaborate? Feel free to reach out to me on [LinkedIn](https://in.linkedin.com/in/jash-rathod-902512145). 
