@@ -3,7 +3,6 @@ layout: post
 title: Branches in Artificial Intelligence to Transform Your Businesses!
 subtitle: Understanding buzzwords like Machine Learning and Computer Vision
 cover-img: /assets/img/sundar-pichai.jpg
-thumbnail-img: /assets/img/sundar-pichai.jpg
 share-img: /assets/img/sundar-pichai.jpg
 tags: [Artificial Intelligence, Machine Learning, Computer Vision, Natural Language Processing, AI for Business, Robotics, Expert Systems, Planning, Technology, Business]
 comments: true
