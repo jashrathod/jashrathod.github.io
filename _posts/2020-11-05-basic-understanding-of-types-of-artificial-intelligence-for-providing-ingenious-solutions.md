@@ -3,7 +3,6 @@ layout: post
 title: Basic understanding of Types of Artificial Intelligence for providing Ingenious Solutions!
 subtitle: Categories of AI based on Capabilities (ANI vs AGI vs ASI) and Functionalities
 cover-img: /assets/img/franki-chamaki-1K6IQsQbizI-unsplash.jpg
-thumbnail-img: /assets/img/franki-chamaki-1K6IQsQbizI-unsplash.jpg
 share-img: /assets/img/franki-chamaki-1K6IQsQbizI-unsplash.jpg
 tags: [Artificial Intelligence, Artificial Narrow Intelligence (ANI), Artificial General Intelligence (AGI), Artificial Superintelligence (ASI), Technology, AI]
 comments: true
