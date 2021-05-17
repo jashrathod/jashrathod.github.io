@@ -3,6 +3,7 @@ layout: post
 title: Simplifying Artificial Intelligence
 subtitle: What is AI?
 cover-img: /assets/img/katarzyna-pe-Twe3VxJlDiY-unsplash.jpg
+thumbnail-img: ""
 share-img: /assets/img/katarzyna-pe-Twe3VxJlDiY-unsplash.jpg
 tags: [Artificial Intelligence, Machine Learning, Technology, AI]
 comments: true
