@@ -140,7 +140,7 @@ google_analytics: "G-5JV0E0FVZQ"
 #cloudflare_analytics: ""
 
 # Google Tag Manager ID
-#gtm: ""
+gtm: "GTM-KDW5MDQ"
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
