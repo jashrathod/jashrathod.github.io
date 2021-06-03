@@ -32,7 +32,7 @@ Linear Regression is a method of regression analysis that **assumes a linear rel
 
 In the case of only one independent variable, we call it **"Simple Linear Regression."** As simple as that! Say, _y_ is the dependent variable, _x_ be the independent variable. Let _w_ be the weight of the variable and _b_ be the bias (bias can sometimes be zero). Weights and Bias are nothing but values that transform the independent variable into the dependent variable. Hence, mathematically,
 
-$$y = w.x + b$$
+<font size="10"> $$y = w.x + b$$ </font>
 
 If you find it difficult to understand, think of our analogy. The price of the house is in proportion to the size of the house. So our equation becomes:
 
