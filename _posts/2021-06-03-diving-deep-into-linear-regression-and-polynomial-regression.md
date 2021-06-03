@@ -40,7 +40,7 @@ $$ price = w.size + b $$
 
 In the case of many independent variables and the dependent variables, we call it **"Multiple Linear Regression."** So, let _X_ be a set of _n_ independent features and _W_ be the set of new weights for each value in _X_.
 
-$$ X = {x_1,x_2,x_3,...,x_n} // W = {w_1,w_2,w_3,...,w_n} $$
+$$ X = {x_1,x_2,x_3,...,x_n} \\ W = {w_1,w_2,w_3,...,w_n} $$
 
 Our equation for multiple linear regression will be:
 
@@ -111,7 +111,7 @@ We need to optimize $$w_i$$ and $$b$$ towards the optimal coefficients and thus 
 
 Let $$L$$ be a loss function (could be any one of the 3 mentioned above or even other than these). The mathematical equation for this is:
 
-$$ w_i \leftarrow w_i - \eta \frac{\partial L}{\partial w_i} 
+$$ w_i \leftarrow w_i - \eta \frac{\partial L}{\partial w_i} $$
 
 Where $$η$$ is the step size (also called learning rate) and it is multiplied with the partial derivative of the loss function with respect to the coefficient that is being updated.
 
