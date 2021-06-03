@@ -2,9 +2,9 @@
 layout: post
 title: Diving Deep into Linear Regression and Polynomial Regression
 subtitle: Learning about Linear and Polynomial Regression, Loss Functions, along with Python Code
-cover-img: /assets/img/sundar-pichai.jpg
+cover-img: /assets/img/graph.png
 thumbnail-img: ""
-share-img: /assets/img/sundar-pichai.jpg
+share-img: /assets/img/graph.png
 tags: [Artificial Intelligence, Machine Learning, Linear Regression, SGD, Loss Function]
 comments: true
 ---
@@ -26,6 +26,8 @@ Without further due, let's dive into Linear and Polynomial Regression.
 
 # Linear Regression
 
+![Linear Regression](/assets/img/linear.png)
+
 Linear Regression is a method of regression analysis that **assumes a linear relationship between the dependent variables and the independent variables**. This means that when we plot a graph between the dependent and independent variables, a straight line is formed. This is an approach to tackle problems that demand to make predictions as continuous values. Being the most basic algorithm, for any tasks where we wish to predict a continuous value, this is the first algorithm that is generally implemented.
 
 In the case of only one independent variable, we call it **"Simple Linear Regression."** As simple as that! Say, _y_ is the dependent variable, _x_ be the independent variable. Let _w_ be the weight of the variable and _b_ be the bias (bias can sometimes be zero). Weights and Bias are nothing but values that transform the independent variable into the dependent variable. Hence, mathematically,
@@ -41,6 +43,8 @@ And correspondingly, we can also modify the equation for that of our analogy.
 If predictions by this algorithm are agreeable to us, then we are happy to go! Simple, easy, and interpretable. But generally we observe that for real-world problems, this is not the case. In most of the real-world problems, the relationship between the dependent and the independent variables will not be linear, and in such a case, it is often found that linear regression performs poorly.
 
 # Polynomial Regression
+
+![Polynomial Regression](/assets/img/polynomial.png)
 
 To tackle the problem of non-linearity, we introduce a slight tweak in our approach - **Polynomial Regression**. This method of regression analysis, the independent variables can be linearly or non-linearly dependent on the dependent variable. This helps us build complex curves that can contribute to devising more appropriate representations of the real-world scenarios.
 
@@ -94,6 +98,8 @@ Let _L_ be a loss function (could be any one of the 3 mentioned above or even ot
 Where _η_ is the step size (also called learning rate) and it is multiplied with the partial derivative of the loss function with respect to the coefficient that is being updated.
 
 The beauty of this equation is that without any human intervention, as training proceeds, it will optimize the coefficients. It does so by minimizing the loss function. Thus, this process is also called **"Minimizing the Loss Function"**.
+
+![[Image Source](https://gfycat.com/angryinconsequentialdiplodocus)](/assets/img/SGD.gif)
 
 To get a clear understanding of how this works, let's say there are multiple hills and you are standing on the crest of one of them. If I were to tell you to reach the bottom-most point and you must take a step one at a time. Though there is one condition. At any given time, your next step must be in the direction of the steepest descent at that point. The way you would come down the hill is how gradient descent works!
 
@@ -247,5 +253,3 @@ Got any questions or suggestions? Want to share any thoughts or ideas with me? F
 Also, you can view by other works on [GitHub](https://github.com/jashrathod) and [my blog](https://jashrathod.github.io).
 
 Till then, see you in my next post!
-
-<!-- ![Siri](/assets/img/siri.png) -->
