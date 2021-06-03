@@ -32,13 +32,19 @@ Linear Regression is a method of regression analysis that **assumes a linear rel
 
 In the case of only one independent variable, we call it **"Simple Linear Regression."** As simple as that! Say, _y_ is the dependent variable, _x_ be the independent variable. Let _w_ be the weight of the variable and _b_ be the bias (bias can sometimes be zero). Weights and Bias are nothing but values that transform the independent variable into the dependent variable. Hence, mathematically,
 
-<font size="10"> $$y = w.x + b$$ </font>
+$$ y = w.x + b $$
 
 If you find it difficult to understand, think of our analogy. The price of the house is in proportion to the size of the house. So our equation becomes:
 
+$$ price = w.size + b $$
+
 In the case of many independent variables and the dependent variables, we call it **"Multiple Linear Regression."** So, let _X_ be a set of _n_ independent features and _W_ be the set of new weights for each value in _X_.
 
+$$ X = {x_1,x_2,x_3,...,x_n} // W = {w_1,w_2,w_3,...,w_n} $$
+
 Our equation for multiple linear regression will be:
+
+$$ y = w_1x_1 + w_2x_2 + w_3x_3 + ... + w_nx_n + b $$
 
 And correspondingly, we can also modify the equation for that of our analogy.
 
@@ -52,9 +58,13 @@ To tackle the problem of non-linearity, we introduce a slight tweak in our appro
 
 Even polynomial regression can be classified as simple and multiple polynomial regression. The equation for simple polynomial regression can be given as:
 
+$$ y = w.x^2 + b $$
+
 Notice that the square of the independent variable has been considered. This introduces non-linearity.
 
 On similar lines, the equation for multiple polynomial regression can be given as:
+
+$$ y = w_1{x_1}^n + w_2{x_2}^p + w_3{x_3}^q + ... + w_n{x_n}^r + b $$
 
 Where _n, p, q, r_ can be integers that introduce non-linearity.
 
@@ -77,9 +87,13 @@ To understand how to optimize these coefficients during training, we need to stu
 
 Let's consider a multiple linear regression with two independent variables. Our equation will be:
 
+$$ y = w_1x_1 + w_2x_2 + b $$
+
 In this equation, _y_ is the true values and _wi_ and _b_ are the optimal coefficients. As we initialize with suboptimal coefficients, our results will also deviate from the optimal results. Thus, our equation, till the time we achieve optimal coefficients and thus optimal results, will be:
 
-Here, the new _y_, _wi_, and _b_ (with a hat) are the suboptimal values. From now on, we will refer _y_ as the "True Value" and _y (hat)_ as the "Predicted Value".
+$$ \hat{y} = \hat{w_1}x_1 + \hat{w_2}x_2 + \hat{b} $$
+
+Here, the new $$\hat{y}$$, $$\hat{w_i}$$, and $$\hat{b}$$ are the suboptimal values. From now on, we will refer $$y$$ as the "True Value" and $$\hat{y}$$ as the "Predicted Value".
 
 In mathematical optimization and decision theory, a **Loss Function can be defined as a quantitative representation of how costly the prediction proves to be**. More the deviation in the true and predicted values, greater is the cost, and worse is the prediction made.
 
@@ -93,11 +107,13 @@ We'll look into them in detail in the posts to come.
 
 # Stochastic Gradient Descent (SGD)
 
-We need to optimize _wi_ and _b_ towards the optimal coefficients and thus obtain results as close to the actual values. In order to do so, we use optimizers. These optimizers employ the use of mathematical functions to move the coefficient values closer to the optimal values as it trains. There are a number of optimizers that we can use. But, let's look at one to understand how an optimizer works. The one we will be focusing on is Stochastic Gradient Descent (SGD).
+We need to optimize $$w_i$$ and $$b$$ towards the optimal coefficients and thus obtain results as close to the actual values. In order to do so, we use optimizers. These optimizers employ the use of mathematical functions to move the coefficient values closer to the optimal values as it trains. There are a number of optimizers that we can use. But, let's look at one to understand how an optimizer works. The one we will be focusing on is Stochastic Gradient Descent (SGD).
 
-Let _L_ be a loss function (could be any one of the 3 mentioned above or even other than these). The mathematical equation for this is:
+Let $$L$$ be a loss function (could be any one of the 3 mentioned above or even other than these). The mathematical equation for this is:
 
-Where _η_ is the step size (also called learning rate) and it is multiplied with the partial derivative of the loss function with respect to the coefficient that is being updated.
+$$ w_i \leftarrow w_i - \eta \frac{\partial L}{\partial w_i} 
+
+Where $$η$$ is the step size (also called learning rate) and it is multiplied with the partial derivative of the loss function with respect to the coefficient that is being updated.
 
 The beauty of this equation is that without any human intervention, as training proceeds, it will optimize the coefficients. It does so by minimizing the loss function. Thus, this process is also called **"Minimizing the Loss Function"**.
 
