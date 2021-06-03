@@ -9,6 +9,18 @@ tags: [Artificial Intelligence, Machine Learning, Linear Regression, SGD, Loss F
 comments: true
 ---
 
+# Table of contents
+
+1. [Introduction](#intro)
+2. [Linear Regression](#linreg)
+3. [Polynomial Regression](#polyreg)
+4. [Initializing Equation Coefficients](#coefficients)
+5. [Loss Function](#lossfn)
+6. [Stochastic Gradient Descent (SGD)](#sgd)
+7. [Python Code - Housing Price Dataset](#code)
+
+# <a name="intro"></a>Introduction
+
 In my [previous post](https://jashrathod.github.io/2020-11-24-branches-in-artificial-intelligence-to-transform-your-businesses/), we explored different branches of AI. I'm almost certain that now you might want to learn about these branches in greater detail. Worry not, I'll surely open the gates to these subsets in the posts to come. If you missed my post, you can find it at the following link: [**Branches of Artificial Intelligence**](https://jashrathod.github.io/2020-11-24-branches-in-artificial-intelligence-to-transform-your-businesses/).
 
 Previously, we discussed Machine Learning. We also discussed its subsets - Supervised Learning, Unsupervised Learning, and Reinforcement Learning. In this post, we'll be discussing one of the most fundamental algorithms in Supervised Learning - **Regressions**. Regressions can be of many types. You might have come across some types of regressions previously or maybe are hearing about it for the first time. Particularly, we'll be looking at two types of regression in this article, namely, **"Linear Regression"** and **"Polynomial Regression"** along with their mathematical formulae and python code.
@@ -24,7 +36,7 @@ Here, the size and location of the house will be the independent variables. As t
 
 Without further due, let's dive into Linear and Polynomial Regression.
 
-# Linear Regression
+# <a name="linreg"></a>Linear Regression
 
 ![Linear Regression](/assets/img/linear.png)
 
@@ -50,7 +62,7 @@ And correspondingly, we can also modify the equation for that of our analogy.
 
 If predictions by this algorithm are agreeable to us, then we are happy to go! Simple, easy, and interpretable. But generally we observe that for real-world problems, this is not the case. In most of the real-world problems, the relationship between the dependent and the independent variables will not be linear, and in such a case, it is often found that linear regression performs poorly.
 
-# Polynomial Regression
+# <a name="polyreg"></a>Polynomial Regression
 
 ![Polynomial Regression](/assets/img/polynomial.png)
 
@@ -70,7 +82,7 @@ Where _n, p, q, r_ can be integers that introduce non-linearity.
 
 This approach has shown to outperform the linear regression techniques generally by showing the ability to take more complex relationships under the hood. But it's important for this approach that we know how the values in _X_ and variable _y_ are related. It becomes more of a trial and error if this is not known. Also, this is prone to overfitting if powers are not carefully chosen.
 
-# Initializing Equation Coefficients
+# <a name="coefficients"></a>Initializing Equation Coefficients
 
 It might have crossed your mind, what values to assign to the coefficients w and b before the training process and how do these values get optimized during training? If we observe carefully, we will realize that it is these coefficients that we want to estimate during our training process, in order to make our ML model better at predictions.
 
@@ -83,7 +95,7 @@ It might have crossed your mind, what values to assign to the coefficients w and
 
 To understand how to optimize these coefficients during training, we need to study about two concepts: *"Loss Function"* and *"Stochastic Gradient Descent (SGD)"*. These terms might sound a bit overwhelming, but don't worry, I've got your back!
 
-# Loss Function
+# <a name="lossfn"></a>Loss Function
 
 Let's consider a multiple linear regression with two independent variables. Our equation will be:
 
@@ -105,7 +117,7 @@ There are several ways to define a loss function based on the type of task at ha
 
 We'll look into them in detail in the posts to come.
 
-# Stochastic Gradient Descent (SGD)
+# <a name="sgd"></a>Stochastic Gradient Descent (SGD)
 
 We need to optimize $$w_i$$ and $$b$$ towards the optimal coefficients and thus obtain results as close to the actual values. In order to do so, we use optimizers. These optimizers employ the use of mathematical functions to move the coefficient values closer to the optimal values as it trains. There are a number of optimizers that we can use. But, let's look at one to understand how an optimizer works. The one we will be focusing on is Stochastic Gradient Descent (SGD).
 
@@ -129,7 +141,7 @@ So till now, we learned about Linear and Polynomial Regression.
 
 Now let's look at the code to apply Linear and Polynomial Regression on the **'Housing Price Dataset'**.
 
-# Housing Price Dataset - Code
+# <a name="code"></a>Python Code - Housing Price Dataset
 
 The dataset used for this tutorial is **House Price Prediction**. It has been modified by me to make it simpler to understand. The entire code (Jupyter Notebook) and the dataset can be found at: [Linear and Polynomial Regression Jupyter Notebook](https://github.com/jashrathod/machine-learning-series/blob/master/Linear%20and%20Polynomial%20Regression/Linear%20and%20Polynomial%20Regression.ipynb)
 
@@ -149,7 +161,7 @@ If you wish to work on the complete dataset, it can be found at: [House Prices -
 
 Let's get into the code right away!
 
-## Step 1. Importing Python Libraries
+## <a name="step1"></a>Step 1. Importing Python Libraries
 
 A short description of all the libraries:
 
@@ -174,7 +186,7 @@ from sklearn.preprocessing import PolynomialFeatures
 from math import sqrt
 {% endhighlight %}
 
-# Step 2. Reading the Dataset as a Dataframe using Pandas
+## <a name="step2"></a>Step 2. Reading the Dataset as a Dataframe using Pandas
 
 The file **"data.csv"** needs to be called first for using it to train our model. We read it as a **pandas** dataframe and assign it to variable **df**. For this, we will make use of the [```read_csv()```](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html) function.
 
@@ -182,7 +194,7 @@ The file **"data.csv"** needs to be called first for using it to train our model
 df = pd.read_csv("data.csv")
 {% endhighlight %}
 
-# Step 3. Initializing the Independent and the Dependent Variables
+## <a name="step3"></a>Step 3. Initializing the Independent and the Dependent Variables
 
 We now need to separate the dependent variable (_y_) from the independent variable(s) (_X_). It can be done by running the following code:
 
@@ -191,7 +203,7 @@ X = df.drop("SalePrice", 1)
 y = df["SalePrice"]
 {% endhighlight %}
 
-# Step 4. Training and Testing Data
+## <a name="step4"></a>Step 4. Training and Testing Data
 
 Two sets of data are needed for our task, one for training and the other for testing. Sklearn provides a function [```train_test_split()```](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html) to do so. For the task that we intend to perform, we'll be using 80% of the total data for training and the remaining 20% for testing.
 
@@ -204,7 +216,7 @@ _y_test_ - part of y used for testing
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=42)
 {% endhighlight %}
 
-# Step 5. Linear Regression Model
+## <a name="step5"></a>Step 5. Linear Regression Model
 
 At last, our Linear Regression model is finally here! The variable **"model"** creates an instance of our [Linear Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html?highlight=linear%20regression#sklearn.linear_model.LinearRegression) model. In the second line, we can see **"fit"** function. What [```fit()```](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html#sklearn.linear_model.LinearRegression.fit) function really does is that it trains our model using the training data. Now our model has been trained. We will use the [```predict()```](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html#sklearn.linear_model.LinearRegression.predict) function to obtain predictions on _X_test_. These predictions can be compared with actual values to determine how our model has performed.
 
@@ -214,7 +226,7 @@ model_lin.fit(X_train, y_train)
 y_pred_lin = model_lin.predict(X_test)
 {% endhighlight %}
 
-# Step 6. Polynomial Features
+## <a name="step6"></a>Step 6. Polynomial Features
 
 In order to obtain polynomially related features, scikit-learn offers a function named [```PolynomialFeatures()```](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html). If a variable _p_ is related to _q_ in quadratic terms, then _p²_ is linearly dependent on _q_. Thus, we will generate features of higher power and feed them to a linear regression model. This will enable us to implement polynomial regression. In the following code, _X_poly_ will act as the new _X_train_ which will be used for the training task.
 
@@ -224,7 +236,7 @@ X_poly = poly.fit_transform(X_train)
 poly.fit(X_poly, y_train)
 {% endhighlight %}
 
-# Step 7. Polynomial Regression Model
+## <a name="step7"></a>Step 7. Polynomial Regression Model
 
 Similar to Linear Regression, we use Linear Regression model with polynomial features as input.
 
@@ -234,7 +246,7 @@ model_poly.fit(X_poly, y_train)
 y_pred_poly = model_poly.predict(poly.fit_transform(X_test))
 {% endhighlight %}
 
-# Step 8. Tabulating Results
+## <a name="step8"></a>Step 8. Tabulating Results
 
 This step is to create a new dataframe that stores the actual/true as well as predicted values by both models. This is done using the function [```DataFrame()```](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html).
 
@@ -246,7 +258,7 @@ results = pd.DataFrame({
 })
 {% endhighlight %}
 
-# Step 9. Evaluation Metrics - Root Mean Square Error (RMSE)
+## <a name="step9"></a>Step 9. Evaluation Metrics - Root Mean Square Error (RMSE)
 
 How do we quantitatively evaluate how our model has performed? For this purpose, we use something called "Evaluation Metrics" which compares the predicted and actual values and gives us a number. Depending on how high or low the value is, we can say how good our model is. One such evaluation metric is the **"Root Mean Square Error"** or simply **RMSE**. I'm sure you might have studied about it sometime. In case you wish to know more about RMSE, check out this article: [What does RMSE really mean?](https://towardsdatascience.com/what-does-rmse-really-mean-806b65f2e48e)
 
