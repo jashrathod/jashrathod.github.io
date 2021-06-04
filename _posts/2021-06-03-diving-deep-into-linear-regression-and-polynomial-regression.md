@@ -9,18 +9,6 @@ tags: [Artificial Intelligence, Machine Learning, Linear Regression, SGD, Loss F
 comments: true
 ---
 
-# Table of contents
-
-1. [Introduction](#intro)
-2. [Linear Regression](#linreg)
-3. [Polynomial Regression](#polyreg)
-4. [Initializing Equation Coefficients](#coefficients)
-5. [Loss Function](#lossfn)
-6. [Stochastic Gradient Descent (SGD)](#sgd)
-7. [Python Code - Housing Price Dataset](#code)
-
-# <a name="intro"></a>Introduction
-
 In my [previous post](https://jashrathod.github.io/2020-11-24-branches-in-artificial-intelligence-to-transform-your-businesses/), we explored different branches of AI. I'm almost certain that now you might want to learn about these branches in greater detail. Worry not, I'll surely open the gates to these subsets in the posts to come. If you missed my post, you can find it at the following link: [**Branches of Artificial Intelligence**](https://jashrathod.github.io/2020-11-24-branches-in-artificial-intelligence-to-transform-your-businesses/).
 
 Previously, we discussed Machine Learning. We also discussed its subsets - Supervised Learning, Unsupervised Learning, and Reinforcement Learning. In this post, we'll be discussing one of the most fundamental algorithms in Supervised Learning - **Regressions**. Regressions can be of many types. You might have come across some types of regressions previously or maybe are hearing about it for the first time. Particularly, we'll be looking at two types of regression in this article, namely, **"Linear Regression"** and **"Polynomial Regression"** along with their mathematical formulae and python code.
@@ -35,6 +23,15 @@ Confused? Let's understand it with an analogy. Imagine that you want to buy a ho
 Here, the size and location of the house will be the independent variables. As the name suggests, changing one has no effect on the other, meaning they are "independent" of one another. The price of the house will be the dependent variable, as it depends on the size and location. Thus, **"Regression Analysis"** is the method of predicting the dependent variable by making use of the independent variable(s).
 
 Without further due, let's dive into Linear and Polynomial Regression.
+
+# Table of contents
+
+1. [Linear Regression](#linreg)
+2. [Polynomial Regression](#polyreg)
+3. [Initializing Equation Coefficients](#coefficients)
+4. [Loss Function](#lossfn)
+5. [Stochastic Gradient Descent (SGD)](#sgd)
+6. [Python Code - Housing Price Dataset](#code)
 
 # <a name="linreg"></a>Linear Regression
 
