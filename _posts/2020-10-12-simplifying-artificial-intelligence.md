@@ -8,8 +8,6 @@ tags: [Artificial Intelligence, Machine Learning, Technology, AI]
 comments: true
 ---
 
-![Artificial Intelligence](/assets/img/katarzyna-pe-Twe3VxJlDiY-unsplash.jpg){: .mx-auto.d-block :}
-
 Everywhere around us we find people talking about Artificial Intelligence (AI). Most of them who are new to this field think of movies like 
 “The Terminator” or “The Incredibles”; the idea that develops is those AI-powered robots will harm humans and destroy the Earth. If AI was indeed 
 like how it is shown in the movies, why the tech giants like Google, Apple, Microsoft, and the myriad number of startups would be interested in 
