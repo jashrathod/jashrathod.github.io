@@ -2,7 +2,6 @@
 layout: post
 title: Diving Deep into Linear Regression and Polynomial Regression
 subtitle: Learning about Linear and Polynomial Regression, Loss Functions, along with Python Code
-cover-img: /assets/img/graph.png
 thumbnail-img: ""
 share-img: /assets/img/graph.png
 tags: [Artificial Intelligence, Machine Learning, Linear Regression, SGD, Loss Function]
