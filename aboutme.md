@@ -24,20 +24,17 @@ Having pursued a four-year B.Tech. in Computer Engineering from Veermata Jijabai
 
 ### Professional Experience:
 
-1. In Summer 2020, I had the internship opportunity of being a part of the Voice Intelligence team of Samsung R&D Institute – Bangalore. 
-2. Moreover, I also have experience working with a startup named Axisvation Solutions, where I contributed towards providing technological solutions to the Insurance Sector. 
+1. Machine Learning Engineer at Samsung R&D Institute – Bangalore. 
+2. In Summer 2020, I had the internship opportunity of being a part of the Voice Intelligence team of Samsung R&D Institute – Bangalore. 
+3. Moreover, I also have experience working with a startup named Axisvation Solutions, where I contributed towards providing technological solutions to the Insurance Sector. 
 
 ### Research Experience:
 
-1. I am a part of the Blockchain and AI Lab, VJTI  and have published two research publications under the guidance of Dr. Dhiren Patel - Director, VJTI. 
+1. I have contributed to numerous projects at the Blockchain and AI Lab, VJTI and have published two research publications under the guidance of Dr. Dhiren Patel - Director, VJTI. 
 2. I have been a part of Center of Excellence in Complex and Non-Linear Dynamic Systems (CoE-CNDS), which is headed by Dr. Faruk Kazi - Dean of R&D and Head of Electrical Engineering Department, VJTI. 
 3. Also, I published a research paper in association with C-DAC, Bangalore which aimed at providing a framework for Wind Speed Forecasting.
 
-
-
 Want to collaborate? Feel free to reach out to me on [LinkedIn](https://in.linkedin.com/in/jash-rathod-902512145). 
-
-
 
 On a personal front, I have a keen passion for reading and writing. Thus, I write blogs about technologies like AI and my experience as a voracious reader.
 You can find them here: [Tech Blog](https://jashrathod.github.io) and [Book Blog](https://jashrathod.github.io/coming-up).
