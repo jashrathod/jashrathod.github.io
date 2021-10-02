@@ -72,7 +72,7 @@ $$ y = w_1x_1 +w_2x_2 + w_3x_3 + ... + w_nx_n + b $$
 
 We also introduced the concept of loss functions. We will use one such loss function in this post - Residual Sum of Squares (RSS). It can be mathematically given as:
 
-$$ L = RSS = \Sigma{m}{i=1} (y_i - \hat{y_i})^2 $$
+$$ L = RSS = \sum_{i=1}^{m} (y_i - \hat{y_i})^2 $$
 
 Regularization can be of two kinds, Ridge and Lasso Regression. Using the above equations as a base, we will discuss each one in detail.
 
@@ -80,7 +80,7 @@ Regularization can be of two kinds, Ridge and Lasso Regression. Using the above 
 
 In this regression, we add a penalty term to the RSS loss function. Our modified loss function now becomes:
 
-$$ L_2 = \Sigma{m}{i=1} (y_i - \hat{y_i})^2 + \lambda \Sigma{n}{j=1} {w_j}^2 = RSS + \lambda \Sigma{n}{j=1} {w_j}^2 $$
+$$ L_2 = \sum^{m}_{i=1} (y_i - \hat{y_i})^2 + \lambda \sum^{n}_{j=1} {w_j}^2 = RSS + \lambda \sum^{n}_{j=1} {w_j}^2 $$
 
 Here, $$\lambda$$ is called the “tuning parameter” which decides how heavily we want to penalize the flexibility of our model. If we look closely, we might observe that if $$\lambda=0$$, it performs like linear regression and as $$\lambda \rightarrow \inf$$, the impact of the shrinkage penalty grows, and the ridge regression coeﬃcient estimates will approach zero. As can be seen, selecting a good value of $$\lambda$$ is critical. The coefficient estimates produced by this method are sometimes also known as the **“L2 norm”**.
 
@@ -88,7 +88,7 @@ Here, $$\lambda$$ is called the “tuning parameter” which decides how heavily
 
 This regression adopts the same idea as Ridge Regression with a change in the penalty term. Instead of $${w_j}^2$$, we use $$\mod{w_j}$$. Thus our new loss function becomes:
 
-$$ L_1 = \Sigma{m}{i=1} (y_i - \hat{y_i})^2 + \lambda \Sigma{n}{j=1} \mod{w_j} = RSS + \lambda \Sigma{n}{j=1} \mod{w_j} $$
+$$ L_1 = \sum^{m}_{i=1} (y_i - \hat{y_i})^2 + \lambda \sum^{n}_{j=1} \mod{w_j} = RSS + \lambda \sum^{n}_{j=1} \mod{w_j} $$
 
 In statistics, this is sometimes called the **“L1 norm”**.
 
@@ -99,7 +99,7 @@ In statistics, this is sometimes called the **“L1 norm”**.
 
 This is  a hybrid kind of regression that brings the best of both the worlds (Ridge and Lasso Regressions). This is done by including penalty terms by both methods. The loss function for Elastic Net regression can be given by:
 
-$$ L_{ElasticNet} = \Sigma{m}{i=1} (y_i - \hat{y_i})^2 + {\lambda}_1 \Sigma{n}{j=1} {w_j}^2 + {\lambda}_2 \Sigma{n}{j=1} \mod{w_j} = RSS + {\lambda}_1 \Sigma{n}{j=1} {w_j}^2 + {\lambda}_2 \Sigma{n}{j=1} \mod{w_j} $$
+$$ L_{ElasticNet} = \sum^{m}_{i=1} (y_i - \hat{y_i})^2 + {\lambda}_1 \sum^{n}_{j=1} {w_j}^2 + {\lambda}_2 \sum^{n}_{j=1} \mod{w_j} = RSS + {\lambda}_1 \sum^{n}_{j=1} {w_j}^2 + {\lambda}_2 \sum^{n}_{j=1} \mod{w_j} $$
 
 This regression is generally found to outperform Ridge and Lasso Regression.
  
