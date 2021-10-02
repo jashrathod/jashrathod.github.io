@@ -86,7 +86,7 @@ Here, $$\lambda$$ is called the “tuning parameter” which decides how heavily
 
 # <a name="lasso"></a>Lasso Regression / L1 Regularization
 
-This regression adopts the same idea as Ridge Regression with a change in the penalty term. Instead of $${w_j}^2$$, we use $$\mod{w_j}$$. Thus our new loss function becomes:
+This regression adopts the same idea as Ridge Regression with a change in the penalty term. Instead of $${w_j}^2$$, we use $$|w_j|$$. Thus our new loss function becomes:
 
 $$ L_1 = \sum^{m}_{i=1} (y_i - \hat{y_i})^2 + \lambda \sum^{n}_{j=1} |w_j| = RSS + \lambda \sum^{n}_{j=1} |w_j| $$
 
