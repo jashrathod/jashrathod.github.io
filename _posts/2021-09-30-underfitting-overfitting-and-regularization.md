@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Underfitting, Overfitting, and Regularization
-subtitle: Tackling underfitting and overfitting of model by using Regularization: Lasso Regression (L1 Norm), Ridge Regression(L2 Norm), Elastic Net Regression
+subtitle: Tackling underfitting and overfitting of model by using Regularization
 thumbnail-img: ""
-share-img: /assets/img/graph.png
+share-img: /assets/img/regularization.png
 tags: [Underfitting, Overfitting, Regularization, Lasso Regression, Rigde Regression, Machine Learning]
 comments: true
 ---
