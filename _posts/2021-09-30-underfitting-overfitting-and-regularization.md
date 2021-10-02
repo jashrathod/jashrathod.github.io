@@ -4,7 +4,7 @@ title: Underfitting, Overfitting, and Regularization
 subtitle: Lasso Regression (L1 Norm), Ridge Regression(L2 Norm), Elastic Net Regression
 thumbnail-img: ""
 share-img: /assets/img/regularization.png
-tags: [Underfitting, Overfitting, Regularization, Lasso Regression, Rigde Regression, Machine Learning]
+tags: [Underfitting, Overfitting, Regularization, Lasso Regression, Ridge Regression, Machine Learning]
 comments: true
 ---
 
