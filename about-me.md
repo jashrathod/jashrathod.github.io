@@ -4,7 +4,7 @@ title: About me
 subtitle: Machine Learning Researcher
 ---
 
-Hello! I am Jash Rathod. I am a Machine Learning Researcher. In the past, I have worked with technologies like Artificial Intelligence (AI) and Blockchain.
+Hello! I am Jash Rathod. I am a Machine Learning Engineer at Samsung R&D Institute, Bangalore. In the past, I have worked with technologies like Artificial Intelligence (AI) and Blockchain.
 
 ### You can find my publications here:
 
