@@ -39,13 +39,15 @@ round-avatar: true
 
 # --- Footer social media links --- #
 
-# Select the social network links that you want to show in the footer.
+# Select the social network links that you want to show in the footer. 
 # Uncomment the links you want to show and add your information to each one.
+# Old google scholar: 4L4lPCsAAAAJ&hl
+# New google scholar link: https://scholar.google.co.in/citations?user=FOo_YfYAAAAJ&hl=en&gmla=AJsN-F6tSoNY6Ae-EQ4E-ulG0BCs3wJHjIiGsSwoWqSWRX-jjv7IXF2EuY4ryXmYAEZR4E_WK0CTSBBupbBvx9bDeoRgYuWVEO2Gi6Z2gEfFk7oU4yRGGzNCcC5CWtj2sMb1V_d9C2ZC
 social-network-links:
   linkedin: jash-rathod
   twitter: rathod_jash
   github: jashrathod
-  google-scholar: citations?user=4L4lPCsAAAAJ&hl=en
+  google-scholar: citations?user=FOo_YfYAAAAJ&hl=en
 #   email: "someone@example.com"
 #   facebook: deanattali
 #   patreon: DeanAttali
