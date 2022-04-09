@@ -13,7 +13,7 @@ OpenAI's DALL-E is a simple approach based on Transformer that autoregressively 
 {: .box-note}
 **Autoregressive:** predicts future behavior based on past behavior, used for forecasting when there is some correlation between values in time series.
 
-# Introduction:
+### Introduction:
 
 - **History of text to image synthesis:**
 
@@ -30,28 +30,28 @@ OpenAI's DALL-E is a simple approach based on Transformer that autoregressively 
 {: .box-note}
 **Zero-shot Learning:** In this, at test time, learner observes samples from classes that were not observed during training & needs to predict the class they belong to. So prediction happens using auxiliary information and on the fly.
 
-# Method:
+### Method:
 
 - To model a transformer to autoregressively model text and image token as single stream of data.
 
 {: .box-note}
 **Note:** directly using pixels of actual image proves computationally expensive & requires lot of memory.
 
-## Stage 1:
+#### Stage 1:
 
 - Train DiscreteVAE to compress 256x256 RGB image into 32x32 grid of image tokens, where each element can assume 8192 possible values.
 - This reduces context size of transformer by a factor of 192 without significant degradation in visual quality.
 
 ![DALL-E Stage 1](/assets/img/dalle-stage1.png)
 
-## Stage 2:
+#### Stage 2:
     
 - Concatenate upto 256 BPE-encoded text tokens with 32x32=1024 image tokens.
 - Train autoregressive transformer to model joint distribution over the text and image tokens.
 
 ![DALL-E Stage 2](/assets/img/dalle-stage2.png)
 
-# Complete DALL-E pipeline
+### Complete DALL-E pipeline
 
 ![DALL-E](/assets/img/dalle.png)
 
