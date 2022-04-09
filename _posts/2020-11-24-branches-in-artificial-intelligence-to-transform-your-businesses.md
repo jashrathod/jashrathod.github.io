@@ -37,7 +37,7 @@ task at hand. Without due delay, let’s get to it.
 
 The branches of AI are:
 
-# 1. Expert Systems
+### 1. Expert Systems
 
 When you are facing a problem, say cavities in your teeth, the first thing you do is approach a dentist. You surely wouldn’t think of visiting a general 
 physician. Why did you choose to go to a dentist rather than a general physician? Simply because a dentist is an expert in the treatment of the teeth. 
@@ -54,7 +54,7 @@ The first Expert System was developed in the 1970s and it can be attributed as t
 - DENDRAL: A chemical analysis expert system used in organic chemistry to detect organic molecules yet unknown.
 - CaDeT: A diagnostic support system that can detect cancer at early stages.
 
-# 2. Machine Learning (ML)
+### 2. Machine Learning (ML)
 
 The second term that comes to our mind when we talk about AI is **‘Machine Learning’**. Human Learning is the process of increasing our knowledge and 
 the ability to apply knowledge when a relevant situation is called for. Upon learning something, we can not only apply the knowledge towards a situation 
@@ -68,21 +68,21 @@ they can learn and improve their performance automatically (even we humans do th
 
 Depending on the learning approach we choose (or is feasible), there are 3 categories:
 
-## A. Supervised Learning
+#### A. Supervised Learning
 
 Consider the situation where a student is first taught a subject by the teacher. The student first learns it and then is tested on the concepts taught. 
 The questions in the test can be the same as that taught by the teacher, or different but based on the concept previously taught. When a similar approach 
 is used for machines, it is called ‘Supervised Learning’. Our AI system is evaluated based on its performance in the test. An example of this can be 
 **‘Stock Price Prediction.’**
 
-## B. Unsupervised Learning
+#### B. Unsupervised Learning
 
 Consider a parallel situation where a student was not taught but was told to directly appear for the test. The test is to segregate the questions in 
 the paper similar to one another. When this approach is used for machines, it is called ‘Unsupervised Learning’. The test seems strange, right? This approach 
 is suited for tasks like data clustering or anomaly detection where each cluster of data shows a similar trend (like, on a rainy day, the weather conditions 
 would be similar) and all anomalies behave in a similar fashion. An example of this can be **‘Identifying Bowlers and Batsmen.’**
 
-## C. Reinforcement Learning
+#### C. Reinforcement Learning
 
 Consider the third situation just like unsupervised learning, the student is not taught and is directly made to appear for the test. The difference being that 
 the student needs to score at least a certain score in order to pass, until that time, reappear for the test again and again. The student is told only the 
@@ -90,7 +90,7 @@ marks he/she scored. Well, we all know that the student has no choice but to sta
 various trends over time, and after every test, will improvise his/her answering strategy to figure out the optimal strategy to finally pass the test. 
 When this approach is applied to machines, it’s called ‘Reinforcement Learning.’ An example of this can be **‘AI playing ping-pong.’**
 
-# 3. Robotics
+### 3. Robotics
 
 Before understanding Robotics and its association with AI, let’s first look at what a robot actually is. A robot is simply a machine that is capable of 
 carrying out a complex series of actions automatically. It can be programmed to do so using a computer. It can be controlled using an external device 
@@ -104,7 +104,7 @@ like humans. One of the best examples of AI in robotics is the **‘Sophia Robot
 
 ![Branches of Artificial Intelligence](/assets/img/Artificial%20Intelligence.png)
 
-# 4. Computer Vision (CV)
+### 4. Computer Vision (CV)
 
 A greater part of our learning process involves our vision. We mostly learn about our environment and make our own interpretations based on what we see. 
 Our ability to see is because the cornea focuses the light entering the eye and forms the image of what we see onto the retina. This image is then converted 
@@ -123,7 +123,7 @@ in the articles to come. Some of the examples where image recognition can be use
 - Face unlock searches for our faces in the front-facing camera feed and if found, prompts to unlock the phone.
 - Image captioning (an image fed to the AI tells us as to what it sees in the image, say a busy street, a concert, or a person approaching you)
 
-# 5. Planning
+### 5. Planning
 
 Imagine that you want to buy some household stuff from the supermarket near your house. From your house, you can reach the supermarket by taking 3 different 
 routes. Say you are working on a tight schedule and have a limited time period in which you must return back to your house. Undoubtedly, you will choose the 
@@ -135,7 +135,7 @@ the house without violating the constraints. The constraint could also be to opt
 that of optimizing the solution up to the best or any agreeable solution. This can be done by exploring the unknown or exploiting the extant knowledge or even 
 both.
 
-# 6. Natural Language Processing (NLP)
+### 6. Natural Language Processing (NLP)
 
 Another great method by which we humans learn is when we read from somewhere and hear others speak. Both of these require us to know the language and its rules. 
 This is what we call ‘natural language.’ But, machines can’t understand our natural language. Here comes NLP.
@@ -146,33 +146,33 @@ directly in natural language. Woah! Cool isn't it?
 
 If you wish to solve a problem that is of one (or even multiple) of the following categories, NLP is the solution.
 
-## A. Machine Translation
+#### A. Machine Translation
 
 Ever used Google Translate? Yes, that’s an example of Machine Translation. Machine Translation is the task of automatically converting one natural language 
 into another, preserving the meaning of the input text, and producing fluent text in the output language.
 
-## B. Content Extraction
+#### B. Content Extraction
 
 Content Extraction is the task of obtaining structured data from unstructured or semi-structured data. What this basically means is to obtain relevant 
 information from all that is available. In this world, around 85% of the data in this world is unstructured and a large portion of it is textual data. 
 Thus, we can apply NLP techniques on this data and use it to gather relevant information or gain business insights.
 
-## C. Question Answering
+#### C. Question Answering
 
 Question Answering, as the name suggests, is concerned with building systems that automatically answer questions posed by humans in a natural language. 
 When we ask Siri, Google Assistant, or Cortana a question, it produces an answer using Q&A NLP techniques.
 
-## D. Text Classification
+#### D. Text Classification
 
 If we want to classify our text into certain categories based on what the text is, we can use Text Classification NLP techniques. Examples of this can be 
 classifying Email as spam or not, finding out whether the movie review was positive or negative, and the list is endless!
 
-## E. Text Generation
+#### E. Text Generation
 
 We can enable AI to form sentences for us. This falls under the category of text generation. It is also sometimes called Natural Language Generation (NLG). 
 Example: given a topic, the machine writes an entire essay about it.
 
-## F. Speech
+#### F. Speech
 
 Needless to elaborate on this! Google Assistant, Siri, Bixby are all applications of Speech. There are 2 parts to it: Speech-to-Text and Text-to-Speech. 
 When we say:
