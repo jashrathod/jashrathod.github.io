@@ -12,7 +12,7 @@ In my last post, we embarked on a journey to explore the various Machine Learnin
 
 In this post, we will explore three concepts, Underfitting, Overfitting, and Regularization. The relation between regularization and overfitting is that regularization reduces the overfitting of the machine learning model. If this sounds Latin to you, don’t worry, continue ahead and things will start making sense. Let’s get to it.
 
-# Table of contents
+### Table of contents
 
 1. [Underfitting](#underfitting)
 2. [Overfitting](#overfitting)
@@ -23,7 +23,7 @@ In this post, we will explore three concepts, Underfitting, Overfitting, and Reg
 7. [Lasso Regression / L1 Regularization](#lasso)
 8. [Elastic Net Regression](#elasticnet)
 
-# <a name="underfitting"></a>Underfitting
+### <a name="underfitting"></a>Underfitting
 
 Generally, when a machine learning model is said to be _“underfitting”_ it means that our model fails to produce good results because of an oversimplified model. Such a model can neither model the training data nor generalize over new data. When such a situation occurs, we say that the model has _“high bias”_. 
 
@@ -32,7 +32,7 @@ Generally, when a machine learning model is said to be _“underfitting”_ it m
 
 Hence, an underfit model performs poorly on training as well as testing data. 
 
-# <a name="overfitting"></a>Overfitting
+### <a name="overfitting"></a>Overfitting
 
 It is the opposite case of underfitting. Here, our model produces good results on training data but performs poorly on testing data. This happens because our model fits the training data so well that it leaves very little or no room for generalization over new data. When overfitting occurs, we say that the model has _“high variance”_.
 
@@ -42,7 +42,7 @@ Overfitting can be best explained as:
 
 ![Overfitting](/assets/img/overfitting.jpg)
 
-# <a name="optimal-fit"></a>Optimal Fit
+### <a name="optimal-fit"></a>Optimal Fit
 
 Needless to say, an optimally fit model is the one that performs well on training as well as testing data with room for generalizing over new data observations.
 
@@ -62,7 +62,7 @@ Some of the approaches to solving the problem of overfitting are:
 
 Among these, we will be looking at **Regularization** in this post.
 
-# <a name="regularization"></a>Regularization
+### <a name="regularization"></a>Regularization
 
 The word _“regularize”_ means to make things regular or acceptable. This is exactly why we use it for. Regularization is a form of regression used to reduce the error by fitting a function appropriately on the given training set and avoid overfitting. It discourages the fitting of a complex model, thus reducing the variance and chances of overfitting. It is used in the case of multicollinearity (when independent variables are highly correlated).
 
@@ -84,7 +84,7 @@ $$ L_2 = \sum^{m}_{i=1} (y_i - \hat{y_i})^2 + \lambda \sum^{n}_{j=1} {w_j}^2 = R
 
 Here, $$\lambda$$ is called the “tuning parameter” which decides how heavily we want to penalize the flexibility of our model. If we look closely, we might observe that if $$\lambda=0$$, it performs like linear regression and as $$\lambda \rightarrow \inf$$, the impact of the shrinkage penalty grows, and the ridge regression coeﬃcient estimates will approach zero. As can be seen, selecting a good value of $$\lambda$$ is critical. The coefficient estimates produced by this method are sometimes also known as the **“L2 norm”**.
 
-# <a name="lasso"></a>Lasso Regression / L1 Regularization
+### <a name="lasso"></a>Lasso Regression / L1 Regularization
 
 This regression adopts the same idea as Ridge Regression with a change in the penalty term. Instead of $${w_j}^2$$, we use $$|w_j|$$. Thus our new loss function becomes:
 
@@ -95,7 +95,7 @@ In statistics, this is sometimes called the **“L1 norm”**.
 {: .box-note}
 **Note:** The tuning parameter $$\lambda$$ controls the impact on bias and variance. As the value of $$\lambda$$ rises, it reduces the value of coefficients and thus reducing the variance. Till a point, this increase in $$\lambda$$ is beneficial as it is only reducing the variance (hence avoiding overfitting), without losing any important properties in the data. But after a certain value, the model starts losing important properties, giving rise to bias in the model and thus underfitting. Therefore, the value of $$\lambda$$ should be carefully selected.
 
-# <a name="elasticnet"></a>Elastic Net Regression
+### <a name="elasticnet"></a>Elastic Net Regression
 
 This is  a hybrid kind of regression that brings the best of both the worlds (Ridge and Lasso Regressions). This is done by including penalty terms by both methods. The loss function for Elastic Net regression can be given by:
 
