@@ -14,6 +14,7 @@ author: Jash Rathod
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  Google Scholar: "https://scholar.google.com/citations?user=FOo_YfYAAAAJ&hl=en"
   Tech Blog: "https://jashrathod.github.io"
   Book Blog: "https://jashrathod.github.io/book-blog"
   Archive: "archive"
@@ -27,7 +28,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/jash-rathod.jpg"
+avatar: "/assets/img/jashrathod.jpg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -195,7 +196,7 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "Asia/Kolkata"
+timezone: "America/New_York"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
