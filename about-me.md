@@ -6,7 +6,7 @@ subtitle: Machine Learning (Speech, NLP) Researcher
 
 Hello! I am Jash Rathod. I am a pursuing Master's in Computer Engineering at New York University (NYU). Previously, I have worked as a Machine Learning Engineer at Samsung R&D Institute - Bangalore, India. Primarily, I have experience with end-to-end Automatic Speech Recognition (ASR).
 
-### You can find my publications here [Google Scholar](https://scholar.google.com/citations?user=FOo_YfYAAAAJ&hl=en):
+### You can find my publications below or on [Google Scholar](https://scholar.google.com/citations?user=FOo_YfYAAAAJ&hl=en):
 
 **Artificial Intelligence:**
 
